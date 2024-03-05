@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- css file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./styles/output.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="bg-white z-50 shadow-xl fixed top-0 left-0 w-full py-3 h-[85px]">
+        <div class="container">
+            <nav class="flex justify-between items-center">
+                <a href="#"><img src="./assets/images/html-logo.svg" alt="Logo"></a>
+                
+                <div class="relative">
+                    <i class="bi bi-search absolute left-[20px] text-[#00000065] text-[20px] top-[10px]"></i>
+                    <input class="w-[670px] h-[48px] bg-[#cdd9ed] outline-none focus:ring-2 focus:bg-[#f0f6ff] ring-[#0D75FF] text-[#1b283b] rounded-[30px] p-[15px] pl-[55px]" type="text" id="search-input" placeholder="Search books">
+                </div>
+
+                <div class="nav-btns flex items-center gap-[15px]">
+                    <button class="dark-btn p-[8px]"><i class="bi bi-brightness-high text-[28px] text-yellow-400"></i></button>
+                    <button id="logout-btn" class="py-[11px] px-[23px] bg-[#0D75FF] text-white rounded-[4px]">Logout</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <script src="./assets/js/utils.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
