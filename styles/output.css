@@ -65,11 +65,11 @@ body {
   font-family: Montserrat;
 }
 
-.container {
-  width: 100% !important;
-  max-width: 1380px !important;
-  padding: 0 20px !important;
-  margin: 0 auto !important;
+.container-fluid {
+  width: 100%;
+  max-width: 1600px !important;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 /*

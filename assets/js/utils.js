@@ -8,18 +8,17 @@ function $$(selector){
 
 
 
-function render(element, className, htmlContent){
+function createElement(tagName, className, content) {
 
-    let tag=document.createElement(element);
+    const div = document.createElement(tagName);
 
-    if(className){
-        tag.classList.add(className);
+    if (className) {
+        div.setAttribute('class', className)
+    }
+    
+    if (content) {
+        div.innerHTML = content
     }
 
-    
-
-    tag.innerHTML=htmlContent;
-
-    return tag;
-
+    return div
 }
